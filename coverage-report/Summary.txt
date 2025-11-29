@@ -1,0 +1,106 @@
+Summary
+  Generated on: 11/28/2025 - 10:50:14 PM
+  Coverage date: 11/28/2025 - 10:49:54 PM - 11/28/2025 - 10:49:55 PM
+  Parser: MultiReport (5x Cobertura)
+  Assemblies: 5
+  Classes: 76
+  Files: 62
+  Line coverage: 73.5%
+  Covered lines: 1171
+  Uncovered lines: 422
+  Coverable lines: 1593
+  Total lines: 2695
+  Branch coverage: 80.5% (290 of 360)
+  Covered branches: 290
+  Total branches: 360
+  Method coverage: 79.6% (243 of 305)
+  Full method coverage: 76.7% (234 of 305)
+  Covered methods: 243
+  Fully covered methods: 234
+  Total methods: 305
+
+SixSeven.API                                                                              10.8%
+  Program                                                                                    0%
+  SixSeven.Auth.CurrentUser                                                                100%
+  SixSeven.Auth.Handlers.AdminRequirementHandler                                           100%
+  SixSeven.Auth.Handlers.UserRequirementHandler                                            100%
+  SixSeven.Controllers.AuthController                                                        0%
+  SixSeven.Controllers.EventsController                                                      0%
+  SixSeven.Controllers.NotificationsController                                               0%
+  SixSeven.Controllers.ReportsController                                                     0%
+  SixSeven.Controllers.UserController                                                        0%
+  SixSeven.Controllers.VolunteerMatchingController                                           0%
+  SixSeven.WeatherForecast                                                                   0%
+
+SixSeven.Application                                                                      97.3%
+  SixSeven.Application.DI                                                                    0%
+  SixSeven.Application.Dtos.EventDto                                                       100%
+  SixSeven.Application.Dtos.NotificationDto                                                100%
+  SixSeven.Application.Dtos.UserDto                                                        100%
+  SixSeven.Application.Dtos.VolunteerDto                                                    40%
+  SixSeven.Application.Features.Authorization.LoginCommand                                 100%
+  SixSeven.Application.Features.Authorization.LoginCommandHandler                          100%
+  SixSeven.Application.Features.Authorization.LogoutCommand                                100%
+  SixSeven.Application.Features.Authorization.LogoutCommandHandler                         100%
+  SixSeven.Application.Features.Authorization.SignupCommand                                100%
+  SixSeven.Application.Features.Authorization.SignupCommandHandler                         100%
+  SixSeven.Application.Features.Events.AssignVolunteerToEventCommand                       100%
+  SixSeven.Application.Features.Events.AssignVolunteerToEventHandler                       100%
+  SixSeven.Application.Features.Events.GetUpcomingEventsQueryHandler                       100%
+  SixSeven.Application.Features.Events.UpsertEventCommand                                  100%
+  SixSeven.Application.Features.Events.UpsertEventCommandHandler                          97.9%
+  SixSeven.Application.Features.Matching.GetEventsForMatchingHandler                       100%
+  SixSeven.Application.Features.Matching.GetVolunteersForMatchingHandler                   100%
+  SixSeven.Application.Features.Notifications.GetNotificationsForUserQuery                 100%
+  SixSeven.Application.Features.Notifications.GetNotificationsForUserQueryHandler          100%
+  SixSeven.Application.Features.Notifications.MarkAllNotificationsReadCommand              100%
+  SixSeven.Application.Features.Notifications.MarkAllNotificationsReadHandler              100%
+  SixSeven.Application.Features.Reports.GetEventAssignmentsReportFileQuery                 100%
+  SixSeven.Application.Features.Reports.GetEventAssignmentsReportFileQueryHandler         94.9%
+  SixSeven.Application.Features.Reports.GetVolunteerActivityReportFileQuery                100%
+  SixSeven.Application.Features.Reports.GetVolunteerActivityReportFileQueryHandler          90%
+  SixSeven.Application.Features.Users.GetCurrentUserQuery                                  100%
+  SixSeven.Application.Features.Users.GetCurrentUserQueryHandler                           100%
+  SixSeven.Application.Features.Users.UpdateUserCommand                                     75%
+  SixSeven.Application.Features.Users.UpdateUserCommandHandler                              99%
+  SixSeven.Application.Features.VolunteerHistory.GetVolunteerHistoryForUserQuery           100%
+  SixSeven.Application.Features.VolunteerHistory.GetVolunteerHistoryForUserQueryHandler    100%
+  SixSeven.Application.Mappers.EventDtoMapper                                              100%
+  SixSeven.Application.Mappers.NotificationDtoMapper                                       100%
+  SixSeven.Application.Mappers.VolunteerHistoryDtoMapper                                  96.5%
+
+SixSeven.Data                                                                             87.9%
+  SixSeven.Data.AppDbContextFactory                                                          0%
+  SixSeven.Data.DI                                                                           0%
+  SixSeven.Data.GenericRepository<T>                                                       100%
+  SixSeven.Data.ReadStores.UserReadStore                                                   100%
+  SixSeven.Data.VolunteerReportingRepository                                               100%
+
+SixSeven.Domain                                                                           89.2%
+  SixSeven.Domain.Config.JwtOptions                                                        100%
+  SixSeven.Domain.DI                                                                         0%
+  SixSeven.Domain.DTO.AuthResponse                                                         100%
+  SixSeven.Domain.DTO.EventAssignmentReportDto                                             100%
+  SixSeven.Domain.DTO.EventDto                                                               0%
+  SixSeven.Domain.DTO.EventVolunteerDto                                                    100%
+  SixSeven.Domain.DTO.LoginRequest                                                         100%
+  SixSeven.Domain.DTO.SignupRequest                                                        100%
+  SixSeven.Domain.DTO.UpdateUserRequest                                                    100%
+  SixSeven.Domain.DTO.UpsertEventRequest                                                     0%
+  SixSeven.Domain.DTO.VolunteerActivityRowDto                                              100%
+  SixSeven.Domain.DTO.VolunteerHistoryDto                                                  100%
+  SixSeven.Domain.DTO.VolunteerMatchResultDto                                                0%
+  SixSeven.Domain.Entities.Event                                                           100%
+  SixSeven.Domain.Entities.Notification                                                     95%
+  SixSeven.Domain.Entities.UserCredentials                                                 100%
+  SixSeven.Domain.Entities.UserProfile                                                     100%
+  SixSeven.Domain.Entities.VolunteerHistory                                                100%
+  SixSeven.Domain.Models.AssignVolunteerRequest                                              0%
+  SixSeven.Domain.Models.AssignVolunteerToEventResult                                      100%
+  SixSeven.Domain.Models.FileReportResult                                                  100%
+
+SixSeven.Infrastructure                                                                   59.4%
+  SixSeven.Infrastructure.DI                                                                 0%
+  SixSeven.Infrastructure.EncryptionService                                                100%
+  SixSeven.Infrastructure.FileReportService                                               62.9%
+  SixSeven.Infrastructure.JwtService                                                       100%
